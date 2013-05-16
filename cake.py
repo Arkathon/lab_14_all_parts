@@ -18,9 +18,11 @@ I do not understand.
 
 cake = raw_input('Do you want cake?\n')
 
-if cake == 'yes':
+if cake == 'yes' or cake == 'yeah' or cake == 'y':	
 	print('Here have some cake!')
 elif cake == 'no':
 	print('No cake for you!')
+elif cake == 'maybe':
+	print('So call me')
 else:
 	print('I do not understand')
